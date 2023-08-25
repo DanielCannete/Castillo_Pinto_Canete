@@ -1,0 +1,3 @@
+### Analísis Crítico Daniel Cañete López ###
+
+A mí me encanta la biodiversidad de Chile, pero siempre he sentido que es algo que se pierde por el poco cuidado de la flora y la fauna. El caso de los castores es uno de los miles de ejemplos de malas medidas medioambientales que afectan a la biodiversidad. La idea es poder transmitir esa preocupación al respecto. Me gustaría aprender a generar una experiencia digital a través de esta actividad y así mejorar en la entrega de información.
