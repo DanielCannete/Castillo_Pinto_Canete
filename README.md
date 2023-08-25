@@ -6,3 +6,5 @@ La caza de castores fue prohibida durante 35 años, y esto, sumado a que en la z
 Con este proyecto buscamos recopilar la información preexistente, ordenarla y presentarla  en formato de una web story, con el fin de crear conciencia y mostrar los esfuerzos de las organizaciones a cargo del problema. Además nos gustaría generar proyecciones a través del diálogo con autoridades y expertos en el tema. 
 2. Hipótesis: 
 Las pérdidas económicas y medioambientales causadas por los castores en la patagonia chilena/argentina son irreversibles.
+
+Link de Youtube presentación: https://www.youtube.com/watch?v=kyVPsCZvbWI
