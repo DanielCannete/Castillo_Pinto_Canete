@@ -1,0 +1,3 @@
+1. En los datos de las hectareas decidí dejar los números en "miles" porque sentí que hacía entender mejor el impacto de una manera mental. En contraposición, los millones de usd eran elementos muy abstractos, por tanto no hacía mucha diferencia si dejaba la variable en millones o eso lo dejaba para el eje y. Así que decidí dejar la variable en millones para que fuera visualmente más simple. 
+2. Ocupé la variable de "País", "Millones de USD en Gastos" y "Hectareas afectadas".
+3. La base de datos tiene información hasta el año 2020. Por tanto, la información no está completamente actualizada.

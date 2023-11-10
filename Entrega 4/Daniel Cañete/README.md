@@ -1,0 +1,6 @@
+### 1. Daniel Cañete López ###
+
+2. Para el proceso de visualización decidí ocupar un gráfico de barras que mostrara una comparación entre Chile y Argetina. Estos son los dos países afectados por la introducción de los castores en la Patagonia. Por lo tanto, me parecía interesante comparar cómo le ha afectado tanto en hectareas consumidas como en gastos de dinero.
+
+3. Para la información de Chile encontré los datos en una nota de la Universidad Católica. En ella, reflejaban los distintos efectos que han tenido los castores en Chile. Puntualizaban la cantidad de hectareas consumidas y tenían una infografía sobre el dinero perdido. De la misma forma, encontré una nota del Gobierno argentino que informaba sobre estos mismos paramétros. Por tanto, tuve que hacer dos archivos.csv con esta información. No pude unificarla todo en uno, pero para las visualizaciones me sirvió de igual manera.
+4. Entre las preguntas que resuelve es "¿Cuál de los países afectados por la introducción de este animal es el más afectado en hectareas? y ¿Qué gobierno ha perdido más dinero por la culpa del castor?" 
