@@ -7,3 +7,4 @@ Para llegar a esta visualización, me documenté por distintos medios, como pág
 Después de ver todas las variables, decidí comparar las especies introducidas artificialmente en el sur de Chile y ver el impacto económico que han generado. Había otras coasa que también me hubiera gustado comparar, como la cantidad de individuos por especie o el área que ocupan, pero no existen datos para todas las especies que quería comparar.
 Esta visualizacón responde a la pregunta mencionada en el primer párrafo.
 
+(Los datos están actualizados hasta 2018, que son los últimos que pude encontrar de estas especies)
