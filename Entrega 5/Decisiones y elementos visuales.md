@@ -1,0 +1,2 @@
+## Decisiones y elementos visuales ##
+
