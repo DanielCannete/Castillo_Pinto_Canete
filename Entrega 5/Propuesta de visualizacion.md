@@ -1,2 +1,0 @@
-## Propuesta de Visualización Atómica ##
-
