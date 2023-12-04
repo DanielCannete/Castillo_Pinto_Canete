@@ -1,5 +1,5 @@
 ## Propuesta de historia ##
-Nuestra propuesta es la historia de Piñón el castor, que viene a representar a su especie y a contar la historia de los castores en la Patagonia desde el orígen hasta las consecuencias, para finalizar con una acotada reflexión: nosotros como antagonistas.
+Nuestra propuesta es la historia de Piñón el castor, que viene a representar a su especie y a contar la historia de los castores en la Patagonia desde el origen hasta las consecuencias, para finalizar con una acotada reflexión: nosotros como antagonistas.
 
 Nuestra hipotesis es que, el daño producido or los castores en la Patagonia es irreversible, pero podemos concientizar respecto de las especies invasoras.  
 Las preguntas a responder para contar nuestra historia son; ¿Cómo y por qué fue introducido este animal? ¿Dónde se propagó?
