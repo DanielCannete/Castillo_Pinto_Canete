@@ -1,7 +1,6 @@
 ## Propuesta visualizaciones ##
 
-En primer lugar, el mapa interactivo es una forma de poder visualizar el recorrido de los castores. Su función dentro de la historia es contextualizar su inicio y actualidad del problema. En qué zonas se instalaron por primera vez, cómo fueron aumentando en número y zonas habitadas y qué lugares habitan a día de hoy. 
+En primer lugar, el mapa interactivo es una forma de poder visualizar el recorrido de los castores. Su función dentro de la historia es contextualizar su inicio y actualidad . En qué zonas se instalaron por primera vez, cómo fueron aumentando en número y zonas habitadas y qué lugares habitan a día de hoy. 
 
-En segundo lugar, está el gráfico isotípico donde se compara el impacto con el de otras especies. Su función es poder visualizar de manera más sencilla y clara el impacto comparando con plagas conocidas como los conejos o los visones. Esto permite entender de manera más precisa el calibre del problema que hablamos ya que las cifras son tan dispares que viéndolo en este tipo de gráficos se cuantifica la situación. 
+En segundo lugar, está el gráfico isotípico donde se compara el impacto con el de otras especies. Su función es poder visualizar de manera más sencilla y clara el impacto comparando con plagas conocidas como los conejos o los visones (este aún no se integra en la versión beta de la página web). El último es un gráfico de torta que muestra las áreas impactadas económicamente por la invasión del castor.
 
-Por último, hay tres visualizaciones con el fin de poder comparar los efectos en distintos países. La función de esto es señalar que el problema no es el castor en sí mismo, sino donde está. Por eso se ocupan tres gráficos. Uno que señala las hectáreas consumidas, el dinero perdido por los castores y en qué se ha gastado ese dinero. En conjunto, esto permite que se entienda que el castor es especialmente dañino en Chile por el contexto que lo rodea, más que el animal en sí mismo. 
