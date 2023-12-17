@@ -1,0 +1,156 @@
+import folium
+import random
+from matplotlib.path import Path
+from folium import IFrame
+
+# COORDENADAS TIERRA DEL FUEGO
+polygon_coords_tierra_del_fuego = [
+    [-54.43104651417474, -68.98284793348314],
+    [-54.319059153407444, -69.33990358489612],
+    [-54.19712678543768, -69.6914660724412],
+    [-54.08772357658102, -70.00457641291106],
+    [-53.85509102762949, -70.09796020372508],
+    [-53.66674706760301, -69.76287720778367],
+    [-53.506970008133344, -69.3344104260881],
+    [-53.330188870932155, -69.5980822917469],
+    [-53.41131489534397, -70.22449387472741],
+    [-53.247752014643766, -70.381687139503],
+    [-53.06636879972888, -70.33362707006242],
+    [-52.88933598784382, -70.12159732640274],
+    [-52.682451402203505, -69.64099663199706],
+    [-52.55716063925663, -69.33001969536164],
+    [-52.68073750875474, -69.19149361285648],
+    [-52.706438795749015, -68.61759982695393],
+    [-52.9847514737543, -68.5836750692504],
+    [-53.684085451629215, -68.25882250575694],
+    [-54.059716147573845, -68.01158673096992],
+    [-54.43751108287768, -68.13520461836345],
+    [-54.40431533739254, -68.85789380620244],
+    [-54.182322665484556, -69.76125529100119],
+    [-53.903146454727235, -70.11309081665965]
+]
+
+
+
+polygon_path_tierra_del_fuego = Path(polygon_coords_tierra_del_fuego)
+
+
+bubbles_inside_polygon_tierra_del_fuego = []
+num_bubbles_tierra_del_fuego = 600
+m = folium.Map(location=[-54.6, -68.5], zoom_start=7)
+
+for _ in range(num_bubbles_tierra_del_fuego):
+    random_lat = random.uniform(-54.43104651417474, -53.903146454727235)
+    random_lon = random.uniform(-70.381687139503, -68.01158673096992)
+
+    if polygon_path_tierra_del_fuego.contains_point((random_lat, random_lon)):
+        bubbles_inside_polygon_tierra_del_fuego.append((random_lat, random_lon))
+
+    bubble_group = folium.FeatureGroup(name='Burbujas')
+
+
+for coords in bubbles_inside_polygon_tierra_del_fuego:
+    random_lat, random_lon = coords
+    year = random.randint(1960, 1960)
+    popup_text = f'Año: {year}'
+
+    popup = folium.Popup(IFrame(html=popup_text, width=200, height=60), parse_html=True)
+
+
+
+    folium.CircleMarker(location=[random_lat, random_lon], radius=1, color='yellow', fill=True, fill_color='yellow', fill_opacity=1, popup=popup).add_to(m)
+
+
+
+#COORDENADAS PENÍNSULA DE BRUNSWICK
+polygon_coords = [
+    [-54.857070928881825, -68.81923094718648],
+    [-54.93098051830791, -68.7990384773483],
+    [-54.898342871146525, -69.30853343781232],
+    [-54.82586358313668, -69.73669998334395],
+    [-54.81715731256058, -70.1547920219219],
+    [-54.54633092563938, -70.67866639975314],
+    [-54.438079886875165, -70.71896442756788],
+    [-54.23249566519256, -70.84489577234105],
+    [-54.23249566519256, -70.65851739369788],
+    [-54.30309749378188, -70.4268037337631],
+    [-54.37944641223351, -70.22531359290481],
+    [-54.2678117027499, -70.02886070730796],
+    [-54.35009822678082, -69.67121571045212],
+    [-54.452725162541505, -69.22793740448995],
+    [-54.511253889452085, -68.89044142154147],
+    [-54.60764325154648, -68.67887677551408],
+    [-54.61410930480181, -68.37500723135203],
+    [-54.63160739131791, -67.98713871363512],
+    [-54.78294242648814, -68.17351709227832],
+    [-54.87868927945512, -68.64701891910154]
+]
+
+polygon_path = Path(polygon_coords)
+
+bubbles_inside_polygon = []
+num_bubbles = 400
+
+while len(bubbles_inside_polygon) < num_bubbles:
+    random_lat = random.uniform(-54.87868927945512, -54.23249566519256)
+    random_lon = random.uniform(-70.84489577234105, -67.98713871363512)
+
+
+    if polygon_path.contains_point((random_lat, random_lon)):
+        bubbles_inside_polygon.append((random_lat, random_lon))
+
+
+#m = folium.Map(location=[-54.6, -68.5], zoom_start=7)
+for coords in bubbles_inside_polygon:
+    random_lat, random_lon = coords
+    folium.CircleMarker(location=[random_lat, random_lon], radius=1, color='red', fill=True, fill_color='red', fill_opacity=1).add_to(m)
+
+
+    # grupo de elementos península de Brunswick
+bubble_group_brunswick = folium.FeatureGroup(name='Burbujas - Península de Brunswick')
+
+for coords in bubbles_inside_polygon:
+    random_lat, random_lon = coords
+    year = random.randint(1990,1990)
+    popup_text = f'Año: {year}'
+
+
+    popup = folium.Popup(IFrame(html=popup_text, width=100, height=50), parse_html=True)
+
+
+    folium.CircleMarker(location=[random_lat, random_lon], radius=1, color='red', fill=True, fill_color='red', fill_opacity=1, popup=popup).add_to(bubble_group_brunswick)
+
+
+bubble_group_brunswick.add_to(m)
+
+
+#COORDENADAS LAGO FAGNANO
+polygon_coords = [
+    [-54.54519028868109, -68.61194325037796],
+    [-54.53084911144222, -68.40320302339806],
+    [-54.54200379591239, -68.01868155264562],
+    [-54.52447363718153, -67.67810539283631],
+    [-54.51889428059303, -67.25925163550328],
+    [-54.607277172031786, -67.4103136418703],
+    [-54.592162157519574, -67.63827994238783],
+    [-54.597731500189084, -67.88821889993375]
+]
+
+
+# LIMITES LAGO FAGNANO
+folium.Polygon(locations=polygon_coords, color='none', fill=True, fill_color='none', fill_opacity=0.3, popup='Lago Fagnano').add_to(m)
+
+
+for _ in range(20):
+    random_lat = random.uniform(-54.545, -54.518)
+    random_lon = random.uniform(-68.612, -67.888)
+    popup_text = f'Año: 1946'
+    popup = folium.Popup(IFrame(html=popup_text, width=100, height=50), parse_html=True)
+    folium.CircleMarker(location=[random_lat, random_lon], radius=1, color='green', fill=True, fill_color='green', fill_opacity=1, popup=popup).add_to(m)
+
+
+
+m.save('peninsula_brunswick_bubbles.html')
+m
+
+ pip install nbconvert
