@@ -1,0 +1,581 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    line-height: 1.5 ;
+
+
+}
+
+
+.hcontainer {
+    display:flex;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+
+.vcontainer {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+header{
+    position: relative;
+    height: 600px; /* Ajusta según tus necesidades */
+    overflow: hidden;
+    
+}
+
+header h1{
+    position: absolute;
+    top: 10%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    right: 50%;
+}
+
+.home-bg{
+    background: url('Patagonia.jpg');
+    background-size: cover;
+    background-position-y: -355px;
+    filter: brightness(0.8);
+    width: 100%;
+    height: 60%;
+}
+
+.image-section {
+    position: absolute;
+    text-align: center;
+    margin-top: -192px; 
+    left: 10%;
+    z-index: 1;
+}
+
+
+
+#imagencastor {
+    width: 230px;
+    z-index: 2;
+    left: 115%;
+    display: inline;
+    position: relative;
+    cursor: pointer;
+}
+
+#patitas {
+    width: 100px;
+    height: auto;
+    left: 88%;
+    position: relative;
+    top: 200px;
+
+
+}
+
+.speech-bubble {
+    
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    left: 55%;
+    bottom: 150px;
+    z-index: 2;
+    width: 300px;
+    text-align: center;
+
+}
+
+.visualization-section {
+    position: relative;
+    margin-right: 50px;
+
+}
+
+
+.image-section3 {
+    text-align: center;
+    margin-top: 40px; 
+    
+}
+
+
+
+#bosque1 {
+    width: 100px;
+    z-index: 3;
+    right: -150%;
+    position: relative;
+    bottom: 180px;
+    height: 500;
+}
+
+
+
+.image-section4 {
+    position: absolute;
+    text-align: center;
+    margin-top:-25px; 
+    left: 10%;
+    z-index: 1;
+}
+
+
+
+#castorcito2 {
+    width: 250px;
+    z-index: 2;
+    left: 320%;
+    display: inline;
+    position: relative;
+    
+}
+
+.speech-bubble3 {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    left: 45%;
+    bottom: 5px;
+    z-index: 2;
+    width: 300px;
+    text-align: center;
+
+}
+
+
+.image-section5  {
+    position: absolute;
+    text-align: center;
+    margin-top:-25px; 
+    left: 10%;
+    z-index: 1;
+}
+
+#bosquemal1 {
+    width: 400px;
+    z-index: 2;
+    left: 35%;
+    display: inline;
+    position: relative;
+    bottom: 145px;
+
+}
+
+
+
+.image-section5  {
+    position: absolute;
+    text-align: center;
+    margin-top:-25px; 
+    left: 2%;
+    z-index: 1;
+}
+
+#estadio {
+    width: 800px;
+    height: 500 ;
+    z-index: 2;
+    left: 5%;
+    display: inline;
+    position: relative;
+    bottom: -30px;
+    filter: brightness(0.8);
+}
+
+
+
+
+
+
+
+#grafico1 {
+    width: 840px;
+    height: 400px;
+    z-index: 2;
+    left: -25%;
+    display: inline;
+    position: relative;
+    bottom: 305px;
+
+
+}
+
+
+
+
+
+#castorcito5 {
+    width: 300px;
+    z-index: 5;
+    left: -20%;
+    display: inline;
+    position: relative;
+    bottom: 750px;
+    
+}
+
+
+
+#castorcito6 {
+    width: 330px;
+    z-index: 5;
+    left: 80%;
+    display: inline;
+    position: relative;
+    bottom: 1056px;
+    
+}
+
+
+
+#bosquemal5 {
+    width: 1500px;
+    height: 480px;
+    z-index: 1;
+    left: -40%;
+    display: inline;
+    position: relative;
+    bottom: 1200px;
+    filter: brightness(0.7);
+
+}
+
+#castorcito7 {
+    width: 350px;
+    z-index: 6;
+    left: -20%;
+    display: inline;
+    position: relative;
+    bottom: 1400px;
+    
+}
+
+
+#pare {
+    width: 350px;
+    z-index: 6;
+    left: 60%;
+    display: inline;
+    position: relative;
+    bottom: -1050px;
+    
+}
+
+
+/*Speech bubbles*/
+
+.speech-bubble-base {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    left: -35%;
+    bottom: -110px;
+    z-index: 2;
+    width: 300px;
+    text-align: center;
+
+}
+
+/* caracteristicas */
+#bosquearizona-container{
+    background: url('bosquearizona.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    background-position-y: 510px;
+}
+
+.pinonpatriota{
+    position: relative;
+    top: -250px;
+    left: 30%;
+}
+
+.bubble-patriota{
+    left:30%;
+}
+
+#castorpatriota {
+    width: 280px;
+    z-index: 3;
+    left: -10%;
+    display: inline;
+    position: relative;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.pinonprofe{
+    position: relative;
+    left: 10%;
+    top:-150px;
+}
+
+#castorprofe{
+   width: 680px;
+    z-index: 3;
+    left: -10%;
+    display: inline;
+    position: relative;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.bubble-profe{
+    left:50%;
+    bottom: -100px;
+}
+
+.pinonconstructor{
+    position: relative;
+    left: 17%;
+    top:50px;
+}
+
+#castorconstructor{
+    width: 250px;
+    z-index: 2;
+    left: 40%;
+    top:100px;
+    display: inline;
+    position: relative;
+    cursor:pointer;
+}
+
+.bubble-constructor{
+    left:10%;
+    bottom: 100px;
+}
+
+
+#patitascopia{
+    margin-left: 48%;
+    z-index: 1;
+    width: 100px;
+    bottom:10%;
+    margin-top: -8%;
+
+}
+
+
+.text-box0{
+    margin-right:40% ;
+     border: 3px solid green;
+
+
+}
+
+#llegada{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    overflow: auto;
+    flex-direction: row;
+    margin-top:10%;
+}
+
+.text-box{
+    border: 0;
+    width: 600px;
+    margin-right: 10px;
+    margin-left: 30px;
+    background-color: rgba(54, 255, 3, 0.3);
+}
+
+.text-box1 {
+    border: 0 ;
+    width: 600px;
+    float: left; 
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: rgba(255, 252, 127) ; 
+    
+}
+
+.text-box2 {
+    border:0 ;
+    width: 600px;
+    float: left; 
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 50px; 
+    background-color: rgba(255, 99, 71) ; 
+     
+     
+}
+
+
+#infografia {
+
+    width: 90px;
+    margin-top:80px ;
+    margin-left: 30%;
+    width: 550px;
+}
+
+#estadio {
+    width: 800px;
+    height: 500 ;
+    z-index: 2;
+    margin-left:16%;
+    display: inline;
+    position: relative;
+    bottom: -30px;
+    filter: brightness(0.8);
+}
+
+.text-box3 {
+    line-height: 1.5 ;
+    width: 800px;
+    height: 80px;
+    float: left; 
+    margin-right: 30px;
+    margin-left: 250px;
+    margin-top: 100px; 
+    border: 3px solid blue; 
+    padding: 10px; 
+}
+
+
+#bosquemal4 {
+   width: 800px;
+    height: 350px;
+    z-index: 3;
+    left: 20%;
+    display: inline;
+    position: relative;
+    bottom: 60px;
+    filter: brightness(0.7);
+}
+
+
+
+.speech-bubble4 {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    left: 17%;
+    top: 460px;
+    z-index: 4;
+    width: 300px;
+    text-align: center;
+
+}
+
+.container-wrapper-genially {
+    width: 70px;
+}
+
+
+#castorcito5 {
+    width: 300px;
+    z-index: 5;
+    left: 10%;
+    display: inline;
+    position: relative;
+    bottom: -125px;
+    
+}
+
+
+
+#castorcito6 {
+    width: 330px;
+    z-index: 5;
+    left: 70%;
+    display: inline;
+    position: relative;
+    bottom: 180px;
+    
+}
+
+
+.speech-bubble5 {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    left: 40%;
+    bottom: 450px;
+    z-index: 4;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+
+#castorcito7 {
+    width: 350px;
+    z-index: 6;
+    left: 12%;
+    display: inline;
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 0px;
+}
+
+
+#pare {
+    width: 350px;
+    z-index: 6;
+    left: 60%;
+    display: inline;
+    position: relative;
+    bottom: 800px;
+    margin-bottom:0px;
+    
+}
+
+.speech-bubble6 {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    left: 30%;
+    bottom: 600px;
+    z-index: 5;
+    width: 350px;
+    text-align: center;
+}
+
+.flourish-chart{
+    top: 100px;
+}
+
+
+#bosquefinal {
+    margin: 0 auto;
+    width: 1000px;
+    margin-left: 12%;
+    margin-bottom: 300% ;
+
+ 
